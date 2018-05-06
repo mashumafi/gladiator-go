@@ -1,10 +1,9 @@
 package main
 
 import (
-	"github.com/mashumafi/gladiator/engine"
+	"github.com/mashumafi/gladiator/cli"
 )
 
 func main() {
-	game := engine.NewGame()
-	game.Play()
+	cli.Process()
 }

@@ -6,10 +6,10 @@ import (
 
 func TestGame(*testing.T) {
 	game := Game{}
-	game.Play()
+	game.Display()
 }
 
 func TestNewGame(*testing.T) {
 	game := NewGame()
-	game.Play()
+	game.Display()
 }
