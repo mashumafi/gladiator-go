@@ -1,4 +1,4 @@
-package gladiator
+package engine
 
 type Game struct {
 }
