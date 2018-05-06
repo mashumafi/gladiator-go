@@ -1,5 +1,5 @@
 package etc
 
 // Etc items
-type Etc struct {
+type Etc interface {
 }

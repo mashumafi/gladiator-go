@@ -1,5 +1,5 @@
 package equipment
 
 // Equipment for use in battle
-type Equipment struct {
+type Equipment interface {
 }

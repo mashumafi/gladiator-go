@@ -1,5 +1,5 @@
 package skills
 
 // Skill to use
-type Skill struct {
+type Skill interface {
 }

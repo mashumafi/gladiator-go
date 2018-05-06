@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	game := engine.Game.New()
+	game := engine.NewGame()
+	game.Play()
 }

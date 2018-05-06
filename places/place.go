@@ -1,5 +1,5 @@
 package places
 
 // Place the player can visit
-type Place struct {
+type Place interface {
 }
